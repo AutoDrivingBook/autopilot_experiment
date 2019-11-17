@@ -1,0 +1,25 @@
+# please cite:
+# @article{SqueezeNet,
+#     Author = {Forrest N. Iandola and Matthew W. Moskewicz and Khalid Ashraf and Song Han and William J. Dally and Kurt Keutzer},
+#     Title = {SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and $<$1MB model size},
+#     Journal = {arXiv:1602.07360},
+#     Year = {2016}
+# }
+test_iter: 2000 #测试完所有测试集中的数据所需的次数
+test_interval: 1000 #模型训练时,每迭代1000次测试一次
+base_lr: 0.004 #基础学习率
+display: 40 #屏幕输出日志的迭代间隔
+max_iter: 2500 #最大的迭代次数
+iter_size: 16 #global batch size = batch_size * iter_size
+lr_policy: "poly" #学习策略为“poly”
+power: 1.0 #linearly decrease LR
+momentum: 0.9 #上一次梯度更新的权重
+weight_decay: 0.0002 #权重衰减值,防止过拟合
+snapshot: 500 #每迭代500保存训练模型的slover和caffemodel快照
+snapshot_prefix: "train" #保存的模型前缀
+solver_mode: CPU #使用cpu进行训练 
+random_seed: 42
+#训练所使用的模型配置文件
+net: "examples/mytest/model/train_val.prototxt" 
+test_initialization: false #是否可以使用snapshot进行训练
+average_loss: 40 #取前四十次的loss平均值，进行显示输出
