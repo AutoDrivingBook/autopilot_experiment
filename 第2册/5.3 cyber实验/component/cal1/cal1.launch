@@ -1,0 +1,7 @@
+<cyber>
+    <module>
+        <name>cal1</name>
+        <dag_conf>/apollo/cyber/examples/component/cal1/cal1.dag</dag_conf>
+        <process_name>cal</process_name>
+    </module>
+</cyber>

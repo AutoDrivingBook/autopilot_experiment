@@ -1,0 +1,2 @@
+2019-04-28 15:25:05,653 - INFO - Start running, host: earhian@user-Super-Server, work_dir: /data2/zzj/mmdetection/work_dirs/faster_rcnn_r50_fpn_1x
+2019-04-28 15:25:05,653 - INFO - workflow: [('train', 1)], max: 12 epochs

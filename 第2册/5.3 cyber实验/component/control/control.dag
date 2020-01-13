@@ -1,0 +1,16 @@
+# Define all coms in DAG streaming.
+    module_config {
+    module_library : "/apollo/bazel-bin/cyber/examples/component/control/control.so"
+    components {
+        class_name : "control"
+        config {
+            name : "control"
+            readers {
+                channel: "/carstatus/speed2"
+            }
+            readers {
+                channel: "/carstatus/distance2"
+            }
+        }
+      }
+    }

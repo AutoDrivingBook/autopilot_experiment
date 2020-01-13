@@ -1,0 +1,27 @@
+<cyber>
+    <module>
+        <name>control</name>
+        <dag_conf>/apollo/cyber/examples/component3/control/control.dag</dag_conf>
+        <process_name>control</process_name>
+    </module>
+    <module>
+        <name>cal1</name>
+        <dag_conf>/apollo/cyber/examples/component3/cal1/cal1.dag</dag_conf>
+        <process_name>cal</process_name>
+    </module>
+    <module>
+        <name>cal2</name>
+        <dag_conf>/apollo/cyber/examples/component3/cal2/cal2.dag</dag_conf>
+        <process_name>cal</process_name>
+    </module>
+    <module>
+        <name>speed</name>
+        <dag_conf>/apollo/cyber/examples/component3/speed/speed.dag</dag_conf>
+        <process_name>speed</process_name>
+    </module>
+    <module>
+        <name>distance</name>
+        <dag_conf>/apollo/cyber/examples/component3/distance/distance.dag</dag_conf>
+        <process_name>distance</process_name>
+    </module>
+</cyber>
