@@ -1,0 +1,34 @@
+nohup: ignoring input
+[I 10:55:34.115 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 10:55:34.116 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 10:55:34.118 LabApp] Serving notebooks from local directory: /kitti_semantic
+[I 10:55:34.118 LabApp] The Jupyter Notebook is running at:
+[I 10:55:34.118 LabApp] http://f0ff6fc01d2a:8888/
+[I 10:55:34.119 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:55:34.123 LabApp] No web browser found: could not locate runnable browser.
+[W 10:55:41.783 LabApp] Could not determine jupyterlab build status without nodejs
+[I 10:55:44.030 LabApp] Kernel started: f52388eb-8ef3-49d2-a5cf-9143e3d87b81
+[I 10:55:44.836 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 10:55:44.912 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 10:55:53.936 LabApp] Starting buffering for f52388eb-8ef3-49d2-a5cf-9143e3d87b81:3758cb86-4099-4f0c-9197-490c1fc8ab5e
+[W 10:59:52.524 LabApp] Could not determine jupyterlab build status without nodejs
+[I 10:59:54.553 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 11:00:02.399 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 11:01:24.047 LabApp] Starting buffering for f52388eb-8ef3-49d2-a5cf-9143e3d87b81:beffcd3f-7bd7-4902-9a86-55487a8ff90e
+[I 13:39:17.491 LabApp] 302 GET / (221.218.142.103) 0.87ms
+[W 13:39:22.328 LabApp] Could not determine jupyterlab build status without nodejs
+[I 13:39:25.219 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 13:39:32.534 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 13:39:39.706 LabApp] Starting buffering for f52388eb-8ef3-49d2-a5cf-9143e3d87b81:0349fc29-3f3d-42a7-8de2-3d2c4486fce4
+[I 13:45:32.003 LabApp] 302 GET / (221.218.142.103) 1.34ms
+[W 13:45:33.297 LabApp] Could not determine jupyterlab build status without nodejs
+[I 13:45:35.744 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 13:45:43.075 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 13:49:27.923 LabApp] Starting buffering for f52388eb-8ef3-49d2-a5cf-9143e3d87b81:11c27a01-14d9-4b3e-ac66-ebeb22320c7b
+[I 07:54:33.724 LabApp] 302 GET / (221.218.142.103) 1.03ms
+[W 07:54:38.117 LabApp] Could not determine jupyterlab build status without nodejs
+[I 07:54:40.834 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 07:54:48.091 LabApp] Adapting from protocol version 5.1 (kernel f52388eb-8ef3-49d2-a5cf-9143e3d87b81) to 5.3 (client).
+[I 07:54:52.029 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
